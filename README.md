@@ -1,2 +1,13 @@
 # Revolutionizing-the-agriculture-
 This project employs Machine Learning, specifically Gaussian Mixture with K-Nearest Neighbors for crop recommendation and Decision Tree for pricing, while highlighting the critical role of SARIMA in accurate crop price forecasting to empower farmers with informed decision-making for sustainable agriculture.
+
+
+This project focuses on addressing challenges faced by farmers in the agricultural industry, such as crop selection, profitability, and pricing strategies, by leveraging Machine Learning (ML) techniques. Two key ML algorithms are proposed for implementation: Gaussian Mixture with K-Nearest Neighbors for Crop Recommendation and Decision Tree for current crop pricing. The study emphasizes the significance of accurate crop selection and pricing decisions in ensuring the sustainability of farming businesses.
+
+The Gaussian Mixture with K-Nearest Neighbors algorithm aims to assist farmers in making informed decisions regarding crop selection by analyzing soil content information from historical data. This helps farmers choose crops that are well-suited to their specific land conditions, ultimately maximizing profitability.
+
+For addressing the challenge of determining current crop prices, the Decision Tree algorithm is employed. It analyzes historical crop pricing data along with other relevant features to predict market prices. This enables farmers to make informed pricing decisions, taking into account factors such as supply and demand, weather conditions, and government policies.
+
+The project also highlights the importance of forecasting crop prices for farmers. Accurate price forecasting helps in strategic decision-making regarding when to sell crops. The Seasonal Autoregressive Integrated Moving Average (SARIMA) model is introduced as an improved version of ARIMA for this purpose. ARIMA is noted to have limitations in handling seasonal information, and SARIMA addresses this by incorporating a cyclical structure in time series data.
+
+The decision to use SARIMA for price forecasting is supported by research indicating its superior predictive capacity compared to other forecasting models. The model's ability to handle seasonal information makes it a valuable tool for anticipating crop prices accurately. This emphasis on SARIMA in forecasting adds a robust and reliable component to the proposed ML-based solutions, contributing to the overall effectiveness of the project in assisting farmers in making well-informed decisions. The insights and code related to SARIMA can be shared on GitHub to contribute to the broader community and facilitate collaborative research in agricultural data science.
